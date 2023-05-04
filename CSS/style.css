@@ -598,6 +598,18 @@ body {
     margin-bottom: 20px;
 }
 
+@media (max-width:991px) and (min-width:481px){
+    .texto-biografia p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:480px){
+    .texto-biografia p{
+        font-size: 15px;
+    }
+}
+
 .video-biografia {
     display: flex;
     flex-direction: row;
