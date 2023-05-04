@@ -232,7 +232,6 @@ body {
     font-size: 30px;
 }
 
-
 /*CLASES PARTICULARES MAIN*/
 .navbar-mio {
     border-bottom: 1px black solid;
@@ -248,6 +247,27 @@ body {
     color: black;
 }
 
+
+/*MEDIA QUERIES*/
+
+@media (max-width:992px) and (min-width:481px) {
+    .texto-clasesparticulares {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:480px) {
+    .texto-clasesparticulares {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .modalidades h3 {
     color: black;
 
@@ -259,7 +279,6 @@ body {
     justify-content: center;
     margin-top: 40px;
     margin-left: 20px;
-
 }
 
 .virtual-presencial {
@@ -302,6 +321,97 @@ body {
 
 .mapa iframe {
     border-radius: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width:481px) and (max-width:991px) {
+    .virtual-presencial {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:481px) and (max-width:991px) {
+    .virtual {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content:flex-start;
+        color: black;
+
+    }
+}
+
+@media (min-width:481px) and (max-width:991px) {
+    .presencial {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: black;
+    }
+
+    .presencial img {
+        order: 1;
+    }
+
+    .presencial h5 {
+        order: 2;
+    }
+
+}
+
+@media (max-width:480px) {
+    .virtual-presencial {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:480px) {
+    .virtual {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: black;
+    }
+}
+
+@media (max-width:480px) {
+    .presencial {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: black;
+    }
+
+    .presencial img {
+        order: 1;
+    }
+
+    .presencial h5 {
+        order: 2;
+    }
+
+}
+
+@media ((min-width:481px) and (max-width:991px)){
+    .mapa iframe{
+        width: 100%;
+        justify-content: center;
+        margin-left: 40px;
+    }
+}
+
+@media ((max-width:480px)){
+    .mapa iframe{
+        width: 100%;
+        justify-content: center;
+        margin-left: 40px;
+    }
 }
 
 .frasemotivadora {
@@ -347,6 +457,15 @@ body {
 .fila2-fotos img {
     margin-bottom: 30px;
     margin-left: 40px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:991px) {
+    .desaparece-responsive img {
+        display: none;
+    }
+
 }
 
 /*TALLERES*/
