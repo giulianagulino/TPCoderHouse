@@ -1,0 +1,544 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-image: url(../Imagenes/Fondo.jpeg);
+    background-position: center top;
+    background-size: cover;
+}
+
+/*NAV*/
+.marca h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.links-mio li a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: black
+}
+
+.links-mio li a:hover {
+    text-decoration: underline;
+}
+
+/*CARRUSEL*/
+.carrusel-fotos img {
+    min-height: 180px;
+}
+
+/*CLASES PARTICULARES INDEX*/
+.clases-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.minitexto-clases {
+    margin-top: 60px;
+    color: black;
+    font-size: 16px;
+
+}
+
+.minitexto-clases p {
+    margin-top: 10px;
+
+}
+
+.foto-clasesindex img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+
+.clases-index {
+
+    border-bottom: 1px black solid;
+}
+
+.foto-clasesindex img:hover {
+    border: 6px white solid;
+}
+
+/*TALLERES INDEX*/
+.talleres {
+    margin-top: 30px;
+}
+
+.talleres-tituloindex h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.talleres-textoindex {
+    color: black;
+    margin-bottom: 25px
+}
+
+.textodelacarta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textodelacarta h5 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 20px;
+    margin-top: auto;
+
+}
+
+.textodelacarta p {
+    color: white;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 20px;
+    font-size: 12px;
+
+}
+
+.carta img {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.carta a:hover {
+    border: 6px white solid;
+
+}
+
+/*FOOTER*/
+.redes {
+    margin-top: 30px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.redes-cuentas a {
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.textofinal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textofinal-footer p {
+    color: black;
+    font-size: 8px;
+
+}
+
+.redes-cuentas a:hover {
+    font-size: 30px;
+}
+
+
+/*CLASES PARTICULARES MAIN*/
+.navbar-mio {
+    border-bottom: 1px black solid;
+}
+
+.titulo-clasesparticulares h2 {
+    margin: 20px;
+    color: black;
+}
+
+.texto-clasesparticulares p {
+    margin-top: 10px;
+    color: black;
+}
+
+.modalidades h3 {
+    color: black;
+
+}
+
+.modalidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.virtual-presencial {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.virtual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.virtual h5 {
+    margin-left: 10px;
+    color: black;
+}
+
+.presencial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.presencial h5 {
+    margin-right: 10px;
+    color: black;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mapa iframe {
+    border-radius: 20px;
+}
+
+.frasemotivadora {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.fila1-fotos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fila1-fotos img {
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.fila1-fotos .foto img {
+    width: 100%;
+    height: auto;
+}
+
+.fila2-fotos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fila2-fotos img {
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.fila2-fotos .foto img {
+    width: 100%;
+    height: auto;
+}
+
+.fila1-fotos img,
+.fila2-fotos img {
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+/*TALLERES*/
+.titulo-talleres {
+    color: black;
+    margin-top: 20px;
+}
+
+.taller-lenguaje {
+    text-align: center;
+    color: black;
+}
+
+.taller-lenguaje img {
+    border-radius: 20px;
+    border: 1px black solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.taller-lenguaje p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.taller-cantogrupal {
+    text-align: center;
+    color: black;
+}
+
+.taller-cantogrupal img {
+    border-radius: 20px;
+    border: 1px black solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.taller-cantogrupal p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.taller-anatomia {
+    text-align: center;
+    color: black;
+}
+
+.taller-anatomia img {
+    border-radius: 20px;
+    border: 1px black solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.taller-anatomia p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.taller-duos {
+    text-align: center;
+    color: black;
+}
+
+.taller-duos img {
+    border-radius: 20px;
+    border: 1px black solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.taller-duos p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.tabla {
+    border: black;
+    max-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla tr:hover {
+    background-color: rgba(231, 203, 199, 0.5);
+}
+
+.tabla-encabezado {
+    background-color: rgb(251, 223, 218);
+}
+
+/*SOBRE MI*/
+
+.imagen-biografia img {
+    height: 700px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.texto-biografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-biografia h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.texto-biografia p {
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.video-biografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-biografia iframe {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.video-biografia iframe:hover {
+    border: 3px white solid;
+}
+
+/*CONTACTO*/
+
+.titulo-contacto h2 {
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.info-fila1 {
+    margin-bottom: 40px;
+}
+
+.info-nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-nombre {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.info-apellido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-apellido {
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.info-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-email {
+    height: 25px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.info-msj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-msj {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.suscripcion-ok {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.suscripcion-ok p {
+    margin-top: 15px;
+}
+
+.info-fila1 h4 {
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+}
+
+.info-fila2 {
+    margin-bottom: 40px;
+}
+
+.info-fila2 h4 {
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+}
+
+.info-fila3 {
+    margin-bottom: 20px;
+}
+
+.info-fila3 h4 {
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.suscripcion {
+    color: black;
+    font-size: 12px;
+}
+
+.boton-enviar button {
+    color: black;
+    font-size: medium;
+    background-color: white;
+    border-radius: 15px;
+    width: 65px;
+}
+
+.contacto-iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.contacto-iconos h5 {
+    color: black;
+    font-size: 9px;
+}
